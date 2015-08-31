@@ -3033,7 +3033,8 @@
 			#banner input[type="reset"]:hover,
 			#banner input[type="button"]:hover,
 			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.075);
+				/*background-color: rgba(255, 255, 255, 0.075); */
+        background-color: #001943;
 			}
 
 			#banner input[type="submit"]:active,
