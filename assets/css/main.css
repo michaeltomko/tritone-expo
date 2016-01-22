@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("fonts.css")
-@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,600,400italic,600italic");
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 
 /*
 	Scalar by Pixelarity
@@ -1568,7 +1568,7 @@
 
 	body, input, select, textarea {
 		color: #868686;
-		font-family: 'League Gothic', Helvetica, sans-serif;
+		font-family: 'Roboto Slab', serif;
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 1.65em;
@@ -1758,7 +1758,7 @@
 
 	header p {
 		color: #A5A5a5;
-		font-family: 'League Gothic', Helvetica, sans-serif;
+		font-family: 'Roboto Slab', serif;
 		font-weight: 400;
 		letter-spacing: 0.05em;
 		margin: 0 0 2em 0;
@@ -3009,7 +3009,7 @@
 	#banner {
 		padding: 9em 0 7em 0 ;
 		background-color: #423e3a;
-		background-image: url("../../images/instrument-banner.jpg");
+		background-image: url("../../images/expo-main-header-splash.png");
 		background-position: center bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3020,8 +3020,21 @@
 			color: #ffffff;
 		}
 
+    #banner h2 {
+      font-size: 50px;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+      line-height: 1;
+    }
+
+    #banner h3 {
+      font-size: 29px;
+      letter-spacing: 1px;
+    }
+
 		#banner header p {
 			color: #ffffff;
+      font-size: 16px;
 		}
 
 		#banner input[type="submit"],
@@ -3046,10 +3059,6 @@
 			#banner .button:active {
 				background-color: rgba(255, 255, 255, 0.2);
 			}
-
-		#banner h2 {
-			font-size: 2.25em;
-		}
 
 /* Footer */
 
