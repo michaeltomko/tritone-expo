@@ -2890,9 +2890,9 @@
 			top: 0;
 		}
 
-    #header h1 img {
+    #logo {
       width: auto;
-      height: 44px;
+      height: calc(4.5em - 22px);
       margin: 11px 0;
     }
 
@@ -3160,9 +3160,9 @@
 					font-size: 1em;
 				}
 
-        #header h1 img {
-          height: 33px;
-          margin: 9px 0;
+        #logo {
+          height: 37px;
+          margin: 6px 0;
         }
 
 				#header nav {
@@ -3263,9 +3263,10 @@
 					margin-left: 1em;
 				}
 
-        #header h1 img {
-          height: 33px;
-          margin: 5px 0;
+        #logo {
+          height: 34px;
+          margin: 7px 0;
+          margin-left: 1em;
         }
 
 				#header nav {
