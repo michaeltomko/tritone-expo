@@ -3289,8 +3289,12 @@
 			}
 
 				#banner h2 {
-					font-size: 2em;
+					font-size: 50px;
 				}
+
+        #banner h3 {
+          font-size: 24px;
+        }
 
 		/* Off-Canvas Navigation */
 
@@ -3613,8 +3617,12 @@
 			}
 
 				#banner h2 {
-					font-size: 1.5em;
+					font-size: 45px;
 				}
+
+        #banner h3 {
+          font-size: 22px;
+        }
 
 		/* Off-Canvas Navigation */
 
