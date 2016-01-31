@@ -110,6 +110,7 @@
                   <input type="hidden" name="_subject" value="New Tritone Expo Sponsor Submission!" />
                   <input type="hidden" name="_cc" value="tritoneguitars@gmail.com" />
                   <input type="text" name="_gotcha" style="display:none" />
+                  <input type="hidden" name="_next" value="//tritoneexpo.com/sponsor/?thanks=true" />
                   <div class="row uniform 50%">
                     <div class="6u 12u$(xsmall)">
                       <input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -177,10 +178,22 @@
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="../assets/js/main.js"></script>
       <script>
-        $(window).load(function() {
+        $(document).ready(function() {
           var param = getQueryVariable("thanks");
-          if (param == "true") { $('#main .container').prepend("<p>Thank you for contacting The Tritone Expo. Someone will be back with you shortly!</p>"); }
+          console.log(param);
+          if (param == "true") { $('#main .container').prepend("<blockquote>Thank you for contacting The Tritone Expo. Someone will be back with you shortly!</blockquote>"); }
         });
+        
+        function getQueryVariable(variable)
+        {
+          var query = window.location.search.substring(1);
+          var vars = query.split("&");
+          for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] == variable){return pair[1];}
+          }
+          return(false);
+        }
       </script>
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
