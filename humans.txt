@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Michael Tomko -- @michaeltomko
+    Adam Bertels -- @lambgrenade
+    Dave Anderson -- @tritoneguitars1
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Font Awesome
