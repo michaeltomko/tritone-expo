@@ -3037,7 +3037,7 @@
 		}
 
     #banner h2 {
-      font-size: 75px;
+      font-size: 50px;
       margin-bottom: 0;
       letter-spacing: 1px;
       line-height: 1;
@@ -3289,11 +3289,11 @@
 			}
 
 				#banner h2 {
-					font-size: 75px;
+					font-size: 50px;
 				}
 
         #banner h3 {
-          font-size: 32px;
+          font-size: 24px;
         }
 
 		/* Off-Canvas Navigation */
@@ -3617,11 +3617,11 @@
 			}
 
 				#banner h2 {
-					font-size: 75px;
+					font-size: 45px;
 				}
 
         #banner h3 {
-          font-size: 32px;
+          font-size: 22px;
         }
 
 		/* Off-Canvas Navigation */
