@@ -1586,7 +1586,6 @@
 	}
 
 	em, i {
-    font-family: 'League Gothic Italic';
 		font-style: italic;
 	}
 
@@ -1596,7 +1595,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #7f7f7f;
-		font-family: 'League Gothic', Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.05em;
 		line-height: 1em;
@@ -3037,7 +3036,7 @@
 		}
 
     #banner h2 {
-      font-size: 50px;
+      font-size: 70px;
       margin-bottom: 0;
       letter-spacing: 1px;
       line-height: 1;
@@ -3289,11 +3288,11 @@
 			}
 
 				#banner h2 {
-					font-size: 50px;
+					font-size: 70px;
 				}
 
         #banner h3 {
-          font-size: 24px;
+          font-size: 33px;
         }
 
 		/* Off-Canvas Navigation */
