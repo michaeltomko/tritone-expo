@@ -3106,6 +3106,11 @@
 			background-color: #E24A38;
 		}
 
+    .sponsor.image.fit img {
+      padding: 10px 20px;
+      width: calc(100% - 40px);
+    }
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3636,6 +3641,10 @@
 				padding: 0 1.25em;
 			}
 
+    .sponsor.image.fit img {
+      padding: 5px;
+    }
+
 	}
 
 /* XSmall */
@@ -3722,9 +3731,4 @@
         left: 0;
         width: 100% !important;
         height: 100% !important;
-    }
-
-    .sponsor.image.fit img {
-      padding: 10px 20px !important;
-      width: calc(100% - 40px) !important;
     }
