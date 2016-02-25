@@ -3111,6 +3111,28 @@
       width: calc(100% - 40px);
     }
 
+    h2.exhibitor-heading {
+      margin-bottom: 0;
+    }
+
+    .exhibitor-heading-sponsor {
+      color: #A5A5a5;
+    }
+
+    #first-floor hr, #second-floor hr {
+      display:none;
+    }
+
+    #first-floor header p, #second-floor header p {
+      margin-bottom: 1em;
+    }
+
+    #first-floor header h2, #second-floor header h2 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3478,6 +3500,18 @@
 			body.landing #two {
 				text-align: center;
 			}
+
+    #first-floor hr, #second-floor hr {
+      display:block;
+    }
+
+    #second-floor hr {
+      margin-top:3em; 
+    }
+
+    #second-floor ul:last-child {
+      margin-bottom:3em;
+    }
 
 	}
 
